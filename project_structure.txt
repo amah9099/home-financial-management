@@ -1,0 +1,59 @@
+Folder PATH listing
+Volume serial number is 42A3-2C44
+C:.
+|   .env
+|   .gitignore
+|   eslint.config.js
+|   index.html
+|   package-lock.json
+|   package.json
+|   postcss.config.js
+|   project_structure.txt
+|   tailwind.config.js
+|   tsconfig.app.json
+|   tsconfig.json
+|   tsconfig.node.json
+|   vite.config.ts
+|   
++---.bolt
+|       config.json
+|       prompt
+|       
++---src
+|   |   App.tsx
+|   |   index.css
+|   |   main.tsx
+|   |   vite-env.d.ts
+|   |   
+|   +---components
+|   |       Auth.tsx
+|   |       CategoryManager.tsx
+|   |       Dashboard.tsx
+|   |       Settings.tsx
+|   |       ShareManager.tsx
+|   |       TransactionForm.tsx
+|   |       TransactionHistory.tsx
+|   |       
+|   +---hooks
+|   |       useAuth.ts
+|   |       useDatabase.ts
+|   |       
+|   +---lib
+|   |       supabase.ts
+|   |       
+|   +---types
+|   |       index.ts
+|   |       
+|   \---utils
+|           calculations.ts
+|           dateUtils.ts
+|           reportUtils.ts
+|           storage.ts
+|           translations.ts
+|           
+\---supabase
+    \---migrations
+            20250723071011_red_bridge.sql
+            20250723071520_bronze_river.sql
+            20250723072611_nameless_canyon.sql
+            
